@@ -24,7 +24,7 @@ public class local {
 			} else {
 				System.out.print(" ");
 				date = date.plusDays(1);
-			}
+			}    
 			if (date.getDayOfWeek().getValue() == 1)
 				System.out.println();
 		}
